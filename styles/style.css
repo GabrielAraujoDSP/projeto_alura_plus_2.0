@@ -262,6 +262,13 @@ body {
     font-weight: 100;
 }
 
+.links:hover {
+    color: var(--botao-azul);
+}
+
+.erro:hover {
+    color: var(--botao-azul);
+}
 
 @media (max-width: 1130px) {
 
