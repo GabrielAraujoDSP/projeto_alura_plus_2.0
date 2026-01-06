@@ -360,7 +360,7 @@ body {
         scroll-snap-type: x mandatory;
     }
 
-    .links{
+    .links {
         flex: 0 0 200px; 
         height: 50px;
 
@@ -374,8 +374,18 @@ body {
         text-align: center;
     }
 
+}
+
+@media (max-width: 600px) {
     .container_imagem {
-        width: 50%;
+        width: 80%;
     }
 
+    .container_terciario {
+        gap: 50px;
+    }
+
+    .container_quarternario {
+        gap: 35px;
+    }
 }
